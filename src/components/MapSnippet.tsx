@@ -26,6 +26,7 @@ export default function MapSnippet() {
                   height="100%" 
                   frameBorder="0" 
                   scrolling="no" 
+                  loading="lazy"
                   src="https://maps.google.com/maps?q=21.8420032,76.3529966&z=15&output=embed" 
                   className="w-full h-full object-cover opacity-80 transition-opacity duration-700 hover:opacity-100"
                 />

@@ -40,6 +40,7 @@ export default function About() {
             <img 
               src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=1000&q=80" 
               alt="Café Interior" 
+              loading="lazy"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
             />
             
@@ -55,6 +56,7 @@ export default function About() {
                 <img 
                   src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&q=80" 
                   alt="Founder" 
+                  loading="lazy"
                   className="w-16 h-16 rounded-full border-2 border-pink-500 object-cover"
                 />
                 <div>

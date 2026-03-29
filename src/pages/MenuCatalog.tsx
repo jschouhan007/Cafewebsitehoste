@@ -109,12 +109,12 @@ export default function MenuCatalog() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setSelectedId(null)}
-              className="fixed inset-0 bg-slate-900/40 backdrop-blur-md z-40"
+              className="fixed inset-0 bg-slate-900/60 z-40"
             />
             <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 pointer-events-none">
               <motion.div
                 layoutId={`card-container-${selectedId}`}
-                className="bg-white/90 backdrop-blur-xl w-full max-w-4xl max-h-[85vh] rounded-[2rem] shadow-2xl overflow-hidden pointer-events-auto flex flex-col border border-white/50"
+                className="bg-zinc-50/98 w-full max-w-4xl max-h-[85vh] rounded-[2rem] shadow-2xl overflow-hidden pointer-events-auto flex flex-col border border-white/50 will-change-transform"
               >
                 {/* Header */}
                 <div className="p-6 md:p-8 flex items-center justify-between border-b border-slate-200/50 bg-white/50">

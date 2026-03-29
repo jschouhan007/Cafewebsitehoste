@@ -87,6 +87,7 @@ export default function Contact() {
                   src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&q=80&w=1200" 
                   className="w-full h-full object-cover grayscale opacity-50"
                   alt="Map Location"
+                  loading="lazy"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-espresso/20" />

@@ -103,7 +103,7 @@ export default function Testimonials() {
               <div className="glass rounded-[2rem] p-8 md:p-12 border-white/60 shadow-2xl flex flex-col md:flex-row items-center gap-8 bg-white/40">
                 <div className="w-24 h-24 md:w-32 md:h-32 flex-shrink-0 rounded-full overflow-hidden border-4 border-white shadow-lg relative">
                   <div className="absolute inset-0 bg-gradient-to-tr from-orange-500 to-pink-500 mix-blend-overlay opacity-50" />
-                  <img src={testimonials[currentIndex].avatar} alt={testimonials[currentIndex].name} className="w-full h-full object-cover" />
+                  <img src={testimonials[currentIndex].avatar} alt={testimonials[currentIndex].name} loading="lazy" className="w-full h-full object-cover" />
                 </div>
                 <div className="flex-1 text-center md:text-left">
                   <div className="flex justify-center md:justify-start gap-1 mb-4">

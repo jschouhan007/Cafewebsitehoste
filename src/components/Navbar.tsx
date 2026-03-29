@@ -190,7 +190,7 @@ export default function Navbar() {
                   <div className="grid gap-4">
                     {searchResults.map((item) => (
                       <div key={item.id} className="flex items-center gap-4 p-4 rounded-2xl hover:bg-slate-50 transition-colors cursor-pointer group">
-                        <img src={item.img} alt={item.name} className="w-16 h-16 rounded-full object-cover shadow-md" />
+                        <img src={item.img} alt={item.name} loading="lazy" className="w-16 h-16 rounded-full object-cover shadow-md" />
                         <div className="flex-1">
                           <h4 className="font-display font-bold text-slate-800 group-hover:text-pink-500 transition-colors">{item.name}</h4>
                           <p className="text-sm text-slate-500 line-clamp-1">{item.desc}</p>

@@ -77,7 +77,7 @@ export default function Carousel3D() {
                   backfaceVisibility: 'hidden',
                 }}
               >
-                <img src={item.img} alt={item.title} className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-300" />
+                <img src={item.img} alt={item.title} loading="lazy" className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/90 to-transparent">
                   <h3 className="text-white font-display font-bold text-2xl drop-shadow-md">{item.title}</h3>
                 </div>
