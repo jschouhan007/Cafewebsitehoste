@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { ShoppingBag } from 'lucide-react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import CursorGlow from './components/CursorGlow';
+
 import Home from './pages/Home';
 import MenuCatalog from './pages/MenuCatalog';
 
@@ -62,7 +62,7 @@ function App() {
     <Router>
       <ScrollHandler />
       <div className="min-h-screen bg-[#f8f5ff] text-slate-800 font-sans selection:bg-pink-500 selection:text-white pb-24 md:pb-0">
-        <CursorGlow />
+
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
